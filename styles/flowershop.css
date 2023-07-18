@@ -101,7 +101,7 @@ nav a{
 .pic-container{
     display: flex;
     align-items: center;
-    padding: 70px;
+    padding: 10px 80px;
     gap: 24px;
 }
 
@@ -120,4 +120,20 @@ nav a{
 
 .pic-title{
     text-align: center;
+}
+
+/* support section */
+.support{
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    max-width: 1440px;
+    margin: 0 80px;
+}
+
+.support-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 85px;
 }
