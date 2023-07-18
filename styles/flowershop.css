@@ -17,18 +17,17 @@ body{
     padding: 20px 45px;
 }
 
+.para-primary{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
 .section-title{
     color: #272727;
     text-align:center;
     font-size: 40px;
     font-weight: 800;
-}
-
-.section-description{
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .pic-info{
@@ -137,3 +136,23 @@ nav a{
     text-align: center;
     padding: 85px;
 }
+
+/* hot deal section */
+
+.hotdeals{
+    margin-top: 125px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deals{
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.deals-container{
+    max-width: 500px;
+}
+
