@@ -6,11 +6,43 @@ body{
 .text-primary{
     color: #E55473;
 }
+
+.btn-primary{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 45px;
+}
+
+.section-title{
+    color: #272727;
+    text-align:center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pic-info{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+}
+
 /* nav related styles */
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: black;
@@ -34,25 +66,58 @@ nav a{
 }
 
 
-.btn-primary{
-    border-radius: 5px;
-    background: #E55473;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 20px 45px;
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
 }
-/* .header{
-    background: rgba(107, 8, 30, 0.1); */
 
 .banner{
-    background: rgba(229, 84, 115, 0.10);
     display: flex;
-    padding: 50px 150px;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-around;
 }
+.banner-content{
+    max-width: 500px;
+}
+
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
 .banner .banner-pic{
-    width: 635px;
-    height: 800px;
-    /* flex-shrink: 0; */
+    width: 500px;
+    height: 700px;
+}
+
+/* main section styles */
+
+
+/* our feature related styles */
+#features-description{
+    padding: 0px 250px;
+}
+.pic-container{
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    gap: 24px;
+}
+
+.pic-one{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.pic-two{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.pic-three{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.pic-title{
+    text-align: center;
 }
