@@ -154,5 +154,16 @@ nav a{
 
 .deals-container{
     max-width: 500px;
+
 }
 
+
+/* instagram section */
+#insta-description{
+    padding: 0px 250px;
+}
+.insta-container{
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
