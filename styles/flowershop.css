@@ -179,4 +179,33 @@ nav a{
 }
 
 
+/* Get the latest deal part */
+
+.section-product input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: start;
+    margin-left: 80px;
+}
+.section-product{
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+.subscribe-part{
+    background-image: url(../Flower-Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
+
 
