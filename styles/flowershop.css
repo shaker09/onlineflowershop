@@ -104,6 +104,10 @@ nav a{
     gap: 24px;
 }
 
+.pic-container a{
+    padding-left: 80px;
+}
+
 .pic-one{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -115,10 +119,6 @@ nav a{
 .pic-three{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-}
-
-.pic-title{
-    text-align: center;
 }
 
 /* support section */
@@ -204,6 +204,25 @@ nav a{
     margin-top: 60px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+/* birthday part  */
+
+.birthday-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+.birth-content{
+    margin-top: 100px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.birthday-container img{
+    width: 400px;
 }
 
 /* footer part */
