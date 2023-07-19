@@ -163,7 +163,20 @@ nav a{
     padding: 0px 250px;
 }
 .insta-container{
-    display: flex;
-    align-items: center;
-    margin-right: 300px;
+    max-width: 1200px;
+    margin: 0 100px;
+    overflow: auto;
 }
+
+.img-item{
+    padding: 5px;
+    float: left;
+    width: 250px;
+}
+.img-item img{
+    width: 100%;
+    height: auto;
+}
+
+
+
