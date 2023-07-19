@@ -1,7 +1,7 @@
 /* common shared styles */
 body{
     font-family: 'Lato', sans-serif;
-    /* font-family: ; */
+    font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
     color: #E55473;
@@ -201,10 +201,39 @@ nav a{
     background-position: center;
     background-size: cover;
     height: 400px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+/* footer part */
+
+.footer-part{
+    margin-top: 60px;
+    height: 300px;
+    padding-top: 100px;
+    background-color: #111010;
+}
+.footer-part h3{
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    }
+.footer-part p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#footer-bottom{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
 
 
 
